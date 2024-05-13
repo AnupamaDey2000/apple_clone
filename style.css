@@ -1,0 +1,356 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* navbar */
+#title{
+
+    color: rgb(246, 238, 238);
+    font-family: "Noto Sans";
+    font-weight: 300;
+    font-size: 0.77rem;
+    
+}
+.container-fluid{
+    text-align: center;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+ /* NAVBAR */
+ .navi{
+    margin-left:180px;
+    margin-right:200px;
+ }
+@media (max-width:1028px){
+
+    .navi{
+        margin-left:10px;
+        margin-right:10px;
+     }
+    
+
+
+
+     .ipad-img{ 
+        
+        
+        width: 50%;
+    }
+    
+    .i-pad{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .pad{order:2;}
+    .ipad-text{order: 1;
+        padding-top: 0rem;
+        text-align: center;
+       
+        padding-right: 15%;
+       
+    }
+    h1{
+        
+        font-size: 2rem;
+    }
+   h3{
+        font-size: 1rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    #pro-tv{
+        margin-top: 2%;
+        padding-left: 0;
+          padding-right: 0;
+         text-align: center;
+    }
+    #watch{
+        margin-top: 1%;
+          padding-left: 0;
+          padding-right: 0;
+        text-align: center;
+    
+    }
+    #mac-pods{
+        margin-top: 1%;
+          padding-left: 0;
+          padding-right: 0;
+        text-align: center;
+    }
+    .ultra{
+        margin-top: 1%;
+        padding-left: 0;
+        padding-right: 0;
+      text-align: center;
+    }
+    .airpods{
+        margin-top: 1%;
+        padding-left: 0;
+        padding-right: 0;
+      text-align: center;
+    }
+    .ipad-text{
+        padding-top: 1rem;
+    padding-right: 2rem;
+    }
+
+
+        
+      
+}
+
+
+    
+
+
+
+
+
+
+
+/* ipad */
+#ipad{
+    background-color: rgb(251, 251, 253);
+}
+.ipad-img{
+    padding-top: 6rem;
+    padding-right: 8rem;
+    width: 195%;
+}
+.ipad-text{
+    padding-top: 18rem;
+    padding-right: 20rem;
+}
+
+
+h1{
+    font-size: 3.5rem;
+}
+
+         
+      
+
+
+
+
+
+     
+    
+
+
+
+/* iphone 14 */
+#iphone-14{
+    margin-top: 2%;
+    background-color: rgb(251, 251, 253);
+    text-align: center;
+}
+.image-14{
+    width:50%;
+}
+.iphone{
+    padding-top: 5%;
+   
+    
+}
+a{
+    text-decoration: none;
+}
+  
+
+/* iphone 14 pro */
+
+#iphone-pro{
+    margin-top: 1%;
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    color: white;
+    
+}
+.image-14pro{
+    width:70%;
+}
+
+
+/* IPAD PRO & APPLE TV */
+
+#pro-tv{
+    margin-top: 1%;
+    margin-left: 0.1%;
+    margin-right: 0.5%;
+     text-align: center;
+}
+
+.ipad-pro{
+    background-color: black;
+    text-align: center;
+   color: white;
+    padding-top: 2rem;
+}
+
+.ipadpro-img{
+    width: 100%;
+   
+    /* padding-top: 2rem; */
+}
+.chip{
+    width: 5%;
+}
+.ipadpro-text{
+    padding-bottom: 2rem;
+}
+
+.tv{
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+   
+}
+.k4{
+    width: 10%;
+}
+.tv-img{
+    width: 55%;
+}
+/* WATCH */
+
+#watch{
+    margin-top: 1%;
+   margin-left: 0.1%;
+   margin-right: 0.5%;
+    text-align: center;
+
+}
+.watch-ultra{
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+   
+    padding-top: 2rem;
+}
+.ul{
+color: white;
+    
+}
+.ultra-img{
+    width: 100%;
+   
+    padding-top: 4.5rem;
+}
+.watch-text{
+    padding-bottom: 5rem;
+    line-height: 10px;
+}
+.watch{
+   
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    color: white;
+    
+}
+.img-watch{
+    width: 98%;
+    
+}
+.text2{
+    color: rgb(255, 94, 0);
+    font-size: 15px;
+}
+.text3{
+    color: red;
+    font-size: 15px;
+}
+
+
+
+/* mackbook air  */
+#mac-pods{
+    margin-top: 1%;
+    margin-left: 0.1%;
+    margin-right: 0.5%;
+     text-align: center;
+}
+.mac{
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+   
+    padding-top: 2rem;
+}
+
+
+.mac-img{
+    width: 77.5%;
+    padding-top: 3rem;
+}
+
+.m2{
+    width: 10%;
+}
+
+/* airpods  */
+
+.airpods{
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    
+ 
+}
+
+.img-pods {
+    width: 90%;
+   padding-top: 5rem;
+}
+
+
+
+
+
+/* apple tv slideshow  */
+
+.change{
+    /* width: 60%; */
+    margin-top: 1%;
+    width: 90%;
+    padding-left: 150px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+  }
+
+
+
+
+/* footer  */
+
+#footer{
+    background-color: rgb(245, 245, 245);
+    margin-top: 1%;
+ 
+    
+    color:rgb(97, 100, 99) ;
+    
+}
+.text-footer{
+    padding-top: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    font-size: 11px;
+    line-height: 15px;
+}
